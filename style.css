@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+
+.user-list-container{
+   color: rgba(255, 255, 255, 0.5);
+}
+
+
+.name, .profession-input, .age{
+   border: 1px solid white;
+   border-radius: 5px;
+   height: 36px;
+   max-width: 400px;
+   padding-left: 0.75rem;
+   outline: none;
+}
+
+.inputs{
+    display: flex;
+    flex-flow: column wrap;
+    width: 30vw;
+    gap: 8px;
+}
+
+.inputs-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.inputs label{
+    font-size: 14px;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.add-btn{
+    width: 120px;
+    height: 36px;
+    color: black;
+    background-color: #fff;
+    outline: none;
+    border: 0px;
+    border-radius: 2px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+form{
+    margin-top: 1.5rem;
+}
+
+.message{
+    margin-top: 2rem;
+}
+
+.error{
+    color: #FF4343;
+    display: none;
+}
+
+.success{
+    color: #43FF78;
+    display: none;
+}
+
+.emp-head{
+    margin-top: 2rem;
+}
+
+.user-list-container{
+    margin-top: 1.75rem;
+}
+
+.data-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.data{
+    display: flex;
+    padding: 14px;
+    font-size: 14px;
+    padding-right: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    min-width: 500px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.delete-btn{
+    display: inline-block;
+    width: 140px;
+    border-radius: 20px;
+    height: 34px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* .data span{
+    min-width: 40px;
+} */
